@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "shulkularity.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+	],
+	"client": [
+		"ShulkerBoxBlockEntityMixin",
+		"ShulkerBoxSlotMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

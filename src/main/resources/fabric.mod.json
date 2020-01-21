@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "shulkularity",
+	"version": "${version}",
+	"name": "Shulkularity",
+	"description": "Who said box in a box in a box was a bad idea?",
+	"authors": [
+		"vini2003"
+	],
+	"contact": {
+		"sources": "https://github.com/vini2003/Shulkularity"
+	},
+	"license": "GPLv3",
+	"icon": "assets/shulkularity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"shulkularity.Shulkularity"
+		]
+	},
+	"mixins": [
+		"shulkularity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.7.2",
+		"fabric": "*",
+		"minecraft": "1.15.x"
+	},
+	"suggests": {
+		"flamingo": "*"
+	}
+}
